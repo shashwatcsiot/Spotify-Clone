@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" sizes="32x32" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left">
+            <div class="home">
+                <ul>
+                    <img src="assets/images/close.svg" alt = "close" class="close">
+                    <li><img src="assets/images/logo.svg" id="spotify" alt="spotify"></li>
+                    <li><img src="assets/images/home.svg" alt="home">Home</li>
+                    <li><img src="assets/images/searchOff.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library">
+                <div class="lib"><img src="assets/images/library.svg" alt="library">Your Library</div>
+                <div class="songList">
+                    <ul></ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+
+                    <button class="language">English</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="header">
+                <div class="nav">
+                    <img src="assets/images/hamburger.svg" class="hamburger" alt="hamburger">
+                    <button class="leftArrow"></button>
+                    <button class="rightArrow"></button>
+                </div>
+                <div class="reg">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+            <div class="artists">
+                <h1>Popular artists</h1>
+                <div class="Acard-container">
+                    <div class="Acard">
+                        <div class="play"></div>
+                        <div>
+                            <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                            <h2>Pritam</h2>
+                            <h3>Artist</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="songinfo"></div>
+                <div class="timeAndPlay">
+                    <div class="songtime"></div>
+                    <div class="controls">
+                        <img src="assets/images/next-button.svg" id="prev" alt="prev">
+                        <img src="assets/images/play.svg" id="play" alt="play-buttton">
+                        <img src="assets/images/next-button.svg" id="next" alt="next">
+                    </div>
+                    <div class="songduration"></div>
+                </div>
+                <div class="seekbar">
+                    <div class="done"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="vol">
+                    <img src="assets/images/volOn.svg" alt="volume">
+                    <input type="range">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="asoireh" id="woidh"></div>
+        <script src="script.js"></script>
+</body>
+
+</html>
